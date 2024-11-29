@@ -46,11 +46,11 @@ const Login = () => {
             if(token){
                 localStorage.setItem('token',token)
                 alert('login successfull')
+                navigate('/')
                 logData({
                     email:'',
                     password:'',
                 })
-                navigate('/')
             } else {
                 alert('no token received')
             }
