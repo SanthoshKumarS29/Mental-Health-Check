@@ -1,5 +1,4 @@
 import { CheckIn } from "../model/Checkin.js";
-import mongoose from "mongoose";
 
 
 // Store the CheckIn Datas
