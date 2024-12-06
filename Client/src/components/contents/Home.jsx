@@ -49,7 +49,7 @@ const Home = () => {
 
     // Check user loged or not
     if(!storedToken || storedToken !== null){
-      alert('please sign up for check your metal helth')
+      alert('please sign up')
       navigate('/login')
     } else{
       setToken(storedToken)
