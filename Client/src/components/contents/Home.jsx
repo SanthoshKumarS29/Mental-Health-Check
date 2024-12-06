@@ -48,7 +48,7 @@ const Home = () => {
     }
 
     // Check user loged or not
-    if(!storedToken || storedToken !== null){
+    if(!storedToken || storedToken === null){
       alert('please sign up')
       navigate('/login')
     } else{
